@@ -1,0 +1,33 @@
+###
+// GET API 1 //
+
+GET http://localhost:3000/movies/
+
+###
+// Method: `POST` API 2 //
+
+POST http://localhost:3000/movies/
+Content-Type: application/json
+
+
+{
+  "directorId": 6,
+  "movieName": "Jurassic Park",
+  "leadActor": "Jeff Goldblum"
+}
+
+###
+// Method: `GET` API 3 //
+GET http://localhost:3000/movies/48/
+
+###
+// method post API 4//
+PUT http://localhost:3000/movies/48/
+Content-Type: application/json
+
+
+{
+  "directorId": 24,
+  "movieName": "Thor",
+  "leadActor": "Christopher Hemsworth"
+}
